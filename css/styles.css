@@ -1,14 +1,103 @@
+
 body {
   color: #40514E;
   margin: 0;
   text-align: center; 
 }
 
-h1 {
+/* Nav Bar */
+
+.head-part{
+  border-bottom: 0.5px dotted rgb(231, 219, 219);
+}
+
+.navbar-logo img{
+ display: flex;
+}
+
+.menuja a{
+  display: inline-flex;
+  width: 50px;
+  color: #11999E;
+  text-decoration: none;
+  font-size: 18px;
+}
+.menuja a:hover{
+  cursor: pointer;
+  color: #007bff;
+}
+.kontakti a{
+  margin-top: 40px;
+  display: inline-flex;
+  width: 10px;
+ 
+  color: #11999E;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/* About */
+
+.sec-2{
+  background-color: #E4F9F5;
+  height: 960px;
+}
+
+.sec-2 img{
+  margin-top: 30px;
+}
+
+
+
+/* Skills */
+.skills h1 {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
-  font-size: 60px;
+  font-size: 40px;
 }
+
+.skills-2 h1 {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+}
+
+span{
+  font-size: 14px;
+  color: #000000;
+}
+
+
+.skills-3 h1 {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+}
+
+
+/*Projects*/
+
+#projects{
+  background-color: #E4F9F5;
+  height: 960px;
+}
+
+
+.proj:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 h2 {
   color: #66BFBF;
@@ -28,12 +117,8 @@ p {
    
 }
 
-hr {
-  border: dotted #EAF6F6;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
+ 
+
 
 
 
@@ -55,10 +140,10 @@ hr {
   margin: 100px 0;
 }
 
-.bottom-container {
-  background-color: #66BFBF;
+#footer {
   font-family: 'Roboto Mono', monospace;
-  padding: 50px 0 20px;
+  height: 50px;
+  color: #000000;
 }
 
 
@@ -78,29 +163,26 @@ hr {
 }
 
 .top-cloud {
-  position: absolute;
+  position: static;
   right: 300px;
   top: 40px;
 }
 
 .bottom-cloud {
-  position: absolute;
+  position: static;
   left: 250px;
   bottom: 300px;
 }
-
-.skill-row {
-  width: 50%;
-  margin: auto;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
+ 
 
 .frontend {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
+
+
+
 
 .aus {
   width: 25%;
@@ -178,7 +260,7 @@ a:hover{
 .navbar-logo img {
   height: 50px;
 }
-
+/**/
 .navbar-links {
   display: flex;
   justify-content: flex-end;
@@ -204,4 +286,3 @@ a:hover{
   color: #007bff;
 }
 
-  

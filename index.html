@@ -6,136 +6,195 @@
 
   <title>Xhuljan Sadiku Blog</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
   <link rel="icon" href="/images/technical-support.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <nav class="navbar">
-    <div class="navbar-logo">
-      <a href="/index.html"><img src="/images/logo.png"  alt="Logo"></a>
-    </div>
-    <ul class="navbar-links">
-      <li><a href="#top-container">Start</a></li>
-      <li><a href="#profile">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <div class="container">
+    <!--Logo Navbar & Contact-->
+    <div class="row head-part">
+      <div class="col-md-4 col-sm-4 navbar-logo mt-3">
+        <a href="/index.html"><img src="./images/logo.png" alt="logo"></a>
+      </div>
+      <div class="col-md-4 col-sm-4 menuja mt-3 text-center">
+        <a class="p-3"  href="#start">Start</a>
+        <a class="p-3"  href="#about">About</a>
+        <a class="p-3"  href="#sk">Skills</a>
+        <a class="p-3"  href="#projects">Projects</a>
+      </div>
   
-
-  <div id="top-container">
-   <section>
-    <img class="top-cloud" src="images/cloud.jpg" / height="100px width 100px">
-    <h2>Hello ):</h2>
+      <div class="col-md-4  col-sm-4 kontakti mt-3 text-center">
+    <a href=""><i class="fa-brands fa-instagram fa-beat fa-lg" style="color: #ff0000;"></i></a>
+    <a href=""><i class="fa-brands fa-facebook fa-beat fa-lg" style="color: #005af5;"></i></a>
+    <a href=""><i class="fa-solid fa-at fa-beat fa-lg" style="color: #1655c0;"></i></a>
+      </div>
+    </div>
+   <!--First Cloud-->
+    <div class="row">
+      <div class="col-md-12 col-sm-4 text-center mt-5">
+        <img id="start" class="top-cloud" src="images/cloud.jpg" height="100px width 100px">
+      </div>
+    </div>
+     <!--First text-->
+    <div class="row">
+    <div class="col-md-12 col-sm-4 text-center mt-5">
+      <h2>Hello ):</h2>
     <h1>I'm Xhuljan Sadiku,</h1>
     <p>a <span class="pro">FrontEnd</span> Developer.</p>
     <a class="btn" href="mailto:xhuljansadiku@gmail.com">Hire Me</a>
-   
-    <img class="bottom-cloud" src="images/cloud.jpg" / height="100px width 100px">
-    <br>
-    <img src="images/mountain.png" / height="400px width 300px">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-   </section>
+    </div>
+    </div>
+
+  <!--Sec. Cloud-->  
+  <div class="row">
+  <div class="col-md-6 col-sm-4 mt-5">
+    <img class="bottom-cloud" src="images/cloud.jpg" height="100px width 100px">
+  </div>
+  <div class="col-md-6 col-sm-4 mt-5">
+    <img class="mt-5" src="images/mountain.png" height="400px width 300px">
+  </div>
+  </div>
+  <!--About-->  
+<div class="row mt-5" >
+  <div class="col-md-12 mt-5 text-center sec-2 mt-5" id="about">
+    <img class="profile-pic mt-5"  src="images/xhuljansadiku2.png" alt="Xhuljan Sadiku Profile Picture">
+    <h2 class="mt-5">Hello.</h2>
+    <p class="intro mt-5">I'm Xhuljan Sadiku 28 years old from <span class="alb">ALBANIA.</span> <br>
+      Based in Bayern, Germany since 2020.<br> </p>
+      * * * * 
+      <p class="mb-5">Since the age of 13, I have been very active with computers, <br>
+         fixing them from viruses and formatting them. <br>
+          Taking suggestions from my closest friends, <br> who are today successful programmers and work <br> in some serious Canadian, American and German companies,<br> i started too my career as a programmer. <br> I have been constantly in contact with programming <br>  and the latest technologies for latest 3 years (Since 2020).
+  </div>
+
+</div>
+
+ <!--Skills-->  
+<div class="row" id="sk">
+  <div class="col-md-12 text-center mt-5 skills">
+    <h1>My Skills.</h1>
+  </div>
+  <div class="col-md-6 mt-5 skills-2">
+    <img class="frontend" src="images/frontend.jpg" alt="frontend">
+        <h1 >Web developer </h1>
+        <p>[ FrontEnd Developer ]</p>
+        <p>A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow....  </p>
+
+  </div>
+
+  <div class="col-md-6 mt-5">
+    <h3>HTML5 <br> <span>3 Years of experience.</span></h3>
     
+    <h3>CSS3 <br> <span>3 Years of experience.</span></h3>
+    <h3>BOOTSTRAP 5 <br> <span>3 Years of experience.</span></h3>
+    <h3>JAVASCRIPT <br> <span>1 Years of experience.</span></h3>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 mt-5 skills-3">
+    <img class="frontend" src="images/wp.png" alt="WordPress"  >
+    <h1>WordPress Design</h1>
+    <p>WordPress developers design and implement websites for companies using the WordPress creation tool. <br> They are responsible for....</p>
+  </div>
+  <div class="col-md-6 mt-5 skills-2">
+    <h3>WordPress <br> <span>1 Years of experience.</span></h3>
+  </div>
+</div>
+
+<div class="row mt-5">
+  <div class="col-md-6 mt-5 skills-3">
+    <img class="frontend" src="images/ps.png" alt="WordPress"  >
+    <h1>Adobe Photoshop</h1>
+    <p>Photoshop is an image creation, graphic design and photo editing software developed by Adobe. 
+    <br>
+    The software provides many image editing....</p>
+  </div>
+  <div class="col-md-6 mt-5 ">
+    <h3>Photoshop Design <br> <span>1 Years of experience.</span></h3>
+  </div>
+</div>
+
+ <!--Projects-->  
+ <div class="row mt-5" id="projects">
+
+  <div class="col-md-12 text-center mt-5">
+    <h1>Projects.</h1>
+  </div>
+
+  <div class="col-md-3 mt-5">
+  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+  <h5>Bmi</h5>
+  <p>Bmi its a bla bla bla bla</p>
   </div>
 
 
+  <div class="col-md-3 mt-5">
+  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a> 
+  <h5>Bmi</h5>
+  <p>Bmi its a bla bla bla bla</p>
+  </div>
+
+  <div class="col-md-3 mt-5">
+  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+  <h5>Bmi</h5>
+  <p>Bmi its a bla bla bla bla</p>
+  </div>
 
 
-  <div class="middle-container">
+  <div class="col-md-3 mt-5">
+  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+  <h5>Bmi</h5>
+  <p>Bmi its a bla bla bla bla</p>
+  </div>
 
-
-    <div id="profile">
-      <br>
-      <img class="profile-pic" src="images/xhuljansadiku2.png" alt="Xhuljan Sadiku Profile Picture">
-      <h2>Hello.</h2>
-      <p class="intro">I'm Xhuljan Sadiku 28 years old from <span class="alb">ALBANIA.</span> <br>
-        Based in Bayern, Germany since 2020.<br> </p>
-        * * * * 
-        <p>Since the age of 13, I have been very active with computers, <br>
-           fixing them from viruses and formatting them. <br>
-            Taking suggestions from my closest friends, <br> who are today successful programmers and work <br> in some serious Canadian, American and German companies,<br> i started too my career as a programmer. <br> I have been constantly in contact with programming <br>  and the latest technologies for latest 3 years (Since 2020).
-           </p>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
+  <div class="col-md-3 mt-5">
+    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+    <h5>Bmi</h5>
+    <p>Bmi its a bla bla bla bla</p>
     </div>
-    <div id="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <br>
-     <br>
-     <br>
-        <img class="frontend" src="images/frontend.jpg" alt="frontend">
-        <h3>Web developer [ FrontEnd Developer ]</h3>
-        <h3>* HTML5 [ 3 Years of experience ]</h3>
-        <h3>* CSS3 [ 3 Years of experience ]</h3>
-        <h3>* BOOTSTRAP 5 [ 3 Years of experience ]</h3>
-        <h3>* JAVASCRIPT [ 1 Years of experience ]</h3>
-       
-
-        <!--<p class="webdev"> 
-          <ul>
-           <li>1. HTML/CSS</li> 
-           <li>2. JavaScript/jQuery</li> 
-           <li>3. Frameworks </li> 
-           <li>4. Responsive Design</li> 
-           <li>5. Version Control/Git </li> 
-           <li>6. Testing/Debugging</li> 
-           <li>7. Browser Developer Tools </li> 
-           <li>8. Web Performance</li> 
-           <li>9. CSS Preprocessing</li> 
-           <li>10. Command Line </li> 
-          </ul>
-        -->
-        </p>
-        <br>
-        <br>
-      </div>
-     
-      <div class="skill-row">
-        <img class="aus" src="images/wp.png" alt="WordPress"  >
-        <h3>WordPress Design</h3>
-        <h3>WordPress [ 1 Years of experience ]</h3>
-        
-
-        <!--
-        <p class="aussch"> WordPress is a free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS. Features include a plugin architecture and a template system, referred to within WordPress as "Themes".
-        </p>-->
-      </div>
-    </div>
-    <hr>
- <br><br>
- <div id="projects">
-  <img src=""   alt="">
   
+  
+    <div class="col-md-3 mt-5">
+    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a> 
+    <h5>Bmi</h5>
+    <p>Bmi its a bla bla bla bla</p>
+    </div>
+  
+    <div class="col-md-3 mt-5">
+    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+    <h5>Bmi</h5>
+    <p>Bmi its a bla bla bla bla</p>
+    </div>
+  
+  
+    <div class="col-md-3 mt-5">
+    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+    <h5>Bmi</h5>
+    <p>Bmi its a bla bla bla bla</p>
+    </div>
+</div>
+ <!--Footer-->  
+ <div class="row ">
+  <div class="col-md-8">
+    <p class="copyright " id="footer">© 2022 Xhuljan Sadiku.</p>
+  </div>
+  <div class="col-md-4">
+    <button>
+      ->
+    </button>
+  </div>
  </div>
+
+
+
   </div>
-
-
-
-  <div class="bottom-container">
-    
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="copyright">© 2022 Xhuljan Sadiku.</p>
-  </div>
-
-
 
 
 
