@@ -90,6 +90,29 @@ span{
 
 
 
+/*Footer*/
+.go-top-btn{
+position: fixed;
+bottom: 35px;
+right: 35px;
+border-radius: 50%;
+cursor: pointer;
+height: 50px;
+width: 50px;
+background-color: #fff;
+border: 1px solid #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.go-top-btn img{
+  width: 50px;
+  height: 50px;
+  }
+  
+
+
 
 
 
@@ -116,6 +139,10 @@ p {
   line-height: 2;
    
 }
+
+
+
+
 
  
 
@@ -197,7 +224,7 @@ p {
 }
 
 .btn {
-  background: #11cdd4;
+  background: #1131d4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
