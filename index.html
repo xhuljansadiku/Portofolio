@@ -19,35 +19,54 @@
   
  
 
-    <div class="container">
-    <!--Logo Navbar & Contact-->
-    <div class="row head-part">
-      <div class="col-md-4 col-sm-4 navbar-logo mt-3">
-        <a href="/index.html"><img src="./images/logo.png" alt="logo"></a>
-      </div>
-      <div class="col-md-4 col-sm-4 menuja mt-3 text-center">
-        <a class="p-3"  href="#start">Start</a>
-        <a class="p-3"  href="#about">About</a>
-        <a class="p-3"  href="#sk">Skills</a>
-        <a class="p-3"  href="#projects">Projects</a>
-      </div>
-  
-      <div class="col-md-4  col-sm-4 kontakti mt-3 text-center">
-    <a href="https://www.instagram.com/xhulian.sdk/" target="_blank"><i class="fa-brands fa-instagram fa-beat fa-lg" style="color: #ff0000;"></i></a>
-    <a href="https://www.facebook.com/xhuliansadiku/" target="_blank"><i class="fa-brands fa-facebook fa-beat fa-lg" style="color: #005af5;"></i></a>
-    <a href="mailto:xhuljansadiku@gmail.com"><i class="fa-solid fa-at fa-beat fa-lg" style="color: #1655c0;"></i></a>
-      </div>
-    </div>
+    <div class="container-fluid">
+
+<!--Logo Navbar & Contact-->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand col-4" href="#"><img src="/images/logo.png" alt="logo"></a> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mt-2">
+                <a class="nav-link active" aria-current="page" href="#start">Start</a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" href="#sk">Skills</a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link disabled">Comming...</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="contact">
+                <button class="btn btn-outline-success me-2" type="button">Contact Us</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
    <!--First Cloud-->
     <div class="row">
-      <div class="col-md-12 col-sm-4 text-center mt-5">
+      <div class="col-md-6 text-center mt-5">
+         
+      </div>
+      <div class="col-md-6 text-center mt-5">
         <img id="start" class="top-cloud" src="images/cloud.jpg" height="100px width 100px">
       </div>
     </div>
      <!--First text-->
     <div class="row">
-    <div class="col-md-12 col-sm-4 text-center mt-5">
-      <h2>Hello ):</h2>
+    <div class="col-12 text-center mt-5">
+      <h2>Hello :)</h2>
     <h1>I'm Xhuljan Sadiku,</h1>
     <p>a <span class="pro">FrontEnd</span> Developer.</p>
     <a class="btn" href="mailto:xhuljansadiku@gmail.com">Hire Me</a>
@@ -56,13 +75,14 @@
 
   <!--Sec. Cloud-->  
   <div class="row">
-  <div class="col-md-6 col-sm-4 mt-5">
+  <div class="col-md-6 col-sm-4 mt-5 text-center">
     <img class="bottom-cloud" src="images/cloud.jpg" height="100px width 100px">
   </div>
   <div class="col-md-6 col-sm-4 mt-5">
     <img class="mt-5" src="images/mountain.png" height="400px width 300px">
   </div>
   </div>
+
   <!--About-->  
 <div class="row mt-5" >
   <div class="col-md-12 mt-5 text-center sec-2 mt-5" id="about">
@@ -77,125 +97,143 @@
   </div>
 
 </div>
+ 
+  <div class="col-12" id="sk">
+    <div class="col-md-12 text-center mt-5 skills">
+      <h1>My Skills.</h1>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-6">
+      <nav id="navbar-example3 text-center" class="h-100 flex-column align-items-stretch pe-4 border-end">
+        <nav class="nav nav-pills flex-column">
+          <button class="nav-link " href="#item-1" id="items-btn">Front - End #1</button>
+          <button class="nav-link" href="#item-2" id="items-btn"> WordPress #2</button>
+          <button class="nav-link" href="#item-3" id="items-btn"> Photoshop #3</button>
+          
+        </nav>
+      </nav>
+    </div>
+  
+    <div class="col-6">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+        <div id="item-1">
+          <h4>FrontEnd Developer #1</h4>
+          <img class="frontend mt-2" src="images/frontend.jpg" alt="frontend">
+          <p>
+            <br> <br> <br> <br> <br>
+            <h3>HTML5 <br> <span>3 Years of experience.</span></h3>
+            <h3>CSS3 <br> <span>3 Years of experience.</span></h3>
+            <h3>BOOTSTRAP 5 <br> <span>3 Years of experience.</span></h3>
+            <h3>JAVASCRIPT <br> <span>1 Years of experience.</span></h3></p>
+        </div>
+        <hr>
+      
+        <div id="item-2" class="mt-5">
+          <h4>WordPress #2</h4>
+          <p><img class="frontend mt-2" src="images/wp.png" alt="WordPress"> <br><br><br><br><br><br>
+            <h3>WordPress <br> <span>1 Years of experience.</span></h3>
+          </p>
+        </div>
+        <hr>
+        <div id="item-3" class="mt-5">
+          <h4>Adob Photoshop</h4>
+          <p><img class="frontend mt-2" src="images/ps.png" alt="WordPress"  ><br><br><br><br><br><br>
+            <h3>Photoshop Design <br> <span>1 Years of experience.</span></h3>
+          </p>
+        </div>
+        <hr>
+        </div>
+      </div>
+    </div>
+  </div>
 
- <!--Skills-->  
-<div class="row" id="sk">
-  <div class="col-md-12 text-center mt-5 skills">
-    <h1>My Skills.</h1>
-  </div>
-  <div class="col-md-6 mt-5 skills-2">
-    <img class="frontend" src="images/frontend.jpg" alt="frontend">
-        <h1 >Web developer </h1>
-        <p>[ FrontEnd Developer ]</p>
-        <p>A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow....  </p>
 
-  </div>
+<!--Projects-->  
 
-  <div class="col-md-6 mt-5">
-    <h3>HTML5 <br> <span>3 Years of experience.</span></h3>
-    
-    <h3>CSS3 <br> <span>3 Years of experience.</span></h3>
-    <h3>BOOTSTRAP 5 <br> <span>3 Years of experience.</span></h3>
-    <h3>JAVASCRIPT <br> <span>1 Years of experience.</span></h3>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-6 mt-5 skills-3">
-    <img class="frontend" src="images/wp.png" alt="WordPress"  >
-    <h1>WordPress Design</h1>
-    <p>WordPress developers design and implement websites for companies using the WordPress creation tool. <br> They are responsible for....</p>
-  </div>
-  <div class="col-md-6 mt-5 skills-2">
-    <h3>WordPress <br> <span>1 Years of experience.</span></h3>
-  </div>
-</div>
-
-<div class="row mt-5">
-  <div class="col-md-6 mt-5 skills-3">
-    <img class="frontend" src="images/ps.png" alt="WordPress"  >
-    <h1>Adobe Photoshop</h1>
-    <p>Photoshop is an image creation, graphic design and photo editing software developed by Adobe. 
-    <br>
-    The software provides many image editing....</p>
-  </div>
-  <div class="col-md-6 mt-5 ">
-    <h3>Photoshop Design <br> <span>1 Years of experience.</span></h3>
-  </div>
-</div>
-
- <!--Projects-->  
  <div class="row mt-5" id="projects">
 
   <div class="col-md-12 text-center mt-5">
     <h1>Projects.</h1>
   </div>
 
-  <div class="col-md-3 mt-5">
-  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
-  <h5>Bmi</h5>
-  <p>Bmi its a bla bla bla bla</p>
-  </div>
-
-
-  <div class="col-md-3 mt-5">
-  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a> 
-  <h5>Bmi</h5>
-  <p>Bmi its a bla bla bla bla</p>
-  </div>
-
-  <div class="col-md-3 mt-5">
-  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
-  <h5>Bmi</h5>
-  <p>Bmi its a bla bla bla bla</p>
-  </div>
-
-
-  <div class="col-md-3 mt-5">
-  <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
-  <h5>Bmi</h5>
-  <p>Bmi its a bla bla bla bla</p>
-  </div>
-
-  <div class="col-md-3 mt-5">
-    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
-    <h5>Bmi</h5>
-    <p>Bmi its a bla bla bla bla</p>
-    </div>
-  
-  
+  <div class="row">
     <div class="col-md-3 mt-5">
-    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a> 
-    <h5>Bmi</h5>
-    <p>Bmi its a bla bla bla bla</p>
+      <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+      <h5>Bmi</h5>
+      <p>Bmi its a bla bla bla bla</p>
+      </div>
+    
+    
+      <div class="col-md-3 mt-5">
+      <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a> 
+      <h5>Bmi</h5>
+      <p>Bmi its a bla bla bla bla</p>
+      </div>
+    
+      <div class="col-md-3 mt-5">
+      <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+      <h5>Bmi</h5>
+      <p>Bmi its a bla bla bla bla</p>
+      </div>
+    
+    
+      <div class="col-md-3 mt-5">
+      <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+      <h5>Bmi</h5>
+      <p>Bmi its a bla bla bla bla</p>
+      </div>
+    
+      <div class="col-md-3 mt-5">
+        <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+        <h5>Bmi</h5>
+        <p>Bmi its a bla bla bla bla</p>
+        </div>
+      
+      
+        <div class="col-md-3 mt-5">
+        <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a> 
+        <h5>Bmi</h5>
+        <p>Bmi its a bla bla bla bla</p>
+        </div>
+      
+        <div class="col-md-3 mt-5">
+        <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+        <h5>Bmi</h5>
+        <p>Bmi its a bla bla bla bla</p>
+        </div>
+      
+      
+        <div class="col-md-3 mt-5">
+        <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
+        <h5>Bmi</h5>
+        <p>Bmi its a bla bla bla bla</p>
+        </div>
     </div>
+  </div>
   
-    <div class="col-md-3 mt-5">
-    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
-    <h5>Bmi</h5>
-    <p>Bmi its a bla bla bla bla</p>
-    </div>
-  
-  
-    <div class="col-md-3 mt-5">
-    <a class="proj" href=""><img src="/images/bmi.png" alt="" height="200px width 100px"></a>
-    <h5>Bmi</h5>
-    <p>Bmi its a bla bla bla bla</p>
-    </div>
-</div>
+
  <!--Footer-->  
  <div class="row ">
-  <div class="col-md-12">
+  <div class="col-md-9">
     <p class="copyright " id="footer">© 2022 Xhuljan Sadiku.</p>
   </div>
+  <div class="col-md-3">
+    <div class="col-md-3kontakti mt-3 text-center">
+      <a href="https://www.instagram.com/xhulian.sdk/" target="_blank"><i class="fa-brands fa-instagram fa-beat fa-lg" style="color: #ff0000;"></i></a>
+      <a href="https://www.facebook.com/xhuliansadiku/" target="_blank"><i class="fa-brands fa-facebook fa-beat fa-lg" style="color: #005af5;"></i></a>
+      <a href="mailto:xhuljansadiku@gmail.com"><i class="fa-solid fa-at fa-beat fa-lg" style="color: #1655c0;"></i></a>
+        </div>
+  </div>
  </div>
-
+ 
  <button class="go-top-btn">
   <img src="/images/arrow-up.png" alt="">
 
 </button>
-
+ 
   </div>
+</div>
 <script src="/script.js"></script>
 
 
